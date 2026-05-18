@@ -1,0 +1,7 @@
+from django.db import models
+
+class Burger(models.Model):
+    nom = models.CharField(max_length=200)
+    ingredients = models.CharField(max_length=400)
+    prix = models.FloatField(default=0.0)
+    vegetarien = models.BooleanField(default=False)
