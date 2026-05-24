@@ -1,5 +1,10 @@
 from django.contrib import admin
 from .models import Burger
 
+
+class BurgerAdmin(admin.ModelAdmin):
+    list_display = ('nom', 'ingredients', 'vegetarien', 'prix')
+    search_fields = ['nom']
+    
 # Register your models here.
-admin.site.register(Burger)
+admin.site.register(Burger, BurgerAdmin)

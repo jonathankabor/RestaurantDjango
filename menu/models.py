@@ -5,3 +5,7 @@ class Burger(models.Model):
     ingredients = models.CharField(max_length=400)
     prix = models.FloatField(default=0.0)
     vegetarien = models.BooleanField(default=False)
+
+
+    def __str__(self):
+        return self.nom
