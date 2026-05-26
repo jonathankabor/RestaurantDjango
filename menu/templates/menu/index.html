@@ -16,6 +16,9 @@
         {% for burger in burgers %}
         <div class="menu-item">
           <span class="menu-item-name">{{ burger.nom }}</span>
+          <span class="menu-item-price">{{ burger.prix }}€</span>
+          <span class="menu-item-ingredients">{{ burger.ingredients }}</span>
+          
         </div>
         {% endfor %}
     </div>

@@ -40,3 +40,18 @@ h1{
     font-weight: bold;
     font-size: 20px;
 }
+
+.menu-item-price {
+    font-size: 20px;
+    background-color: #DD7835;
+    color: white;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.menu-item-ingredients {
+    font-size: 14px;
+    color: white;
+    margin-top: 4px;
+    display: block;
+}
