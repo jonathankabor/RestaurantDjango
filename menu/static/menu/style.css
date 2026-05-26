@@ -61,3 +61,14 @@ h1{
     display: block;
     width: 200px;
 }
+
+.menu-item-vegetarien{
+    background-color: #DD7835;
+    color: black;
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-top: 4px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+}

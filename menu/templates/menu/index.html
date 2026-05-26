@@ -18,7 +18,9 @@
           <span class="menu-item-name">{{ burger.nom }}</span>
           <span class="menu-item-price">{{ burger.prix | floatformat:2 }}€</span>
           <span class="menu-item-ingredients">{{ burger.ingredients }}</span>
-          
+          {% if burger.vegetarien %}
+              <span class="menu-item-vegetarien">Végétarien</span>
+          {% endif %}
         </div>
         {% endfor %}
     </div>

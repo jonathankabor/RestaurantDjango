@@ -9,5 +9,5 @@ def index(request):
     Burgers_list = ','.join([str(burger) + " : " + str(burger.prix) + "€" for burger in Burgers])
     return HttpResponse(f"Bienvenue sur le Menu du restaurant. Burgers disponibles : {Burgers_list}")"""
     
-    return render(request, 'menu/index.html', {'burgers': Burger.objects.all()})
+    return render(request, 'menu/index.html', {'burgers': Burger.objects.all().order_by('prix')})
 # Create your views here.
