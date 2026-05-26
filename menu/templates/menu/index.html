@@ -12,11 +12,13 @@
     <h1>Les Burgers</h1>
   </div>
 
-    <ul>
+  <div class="menu-list">
         {% for burger in burgers %}
-        <li>{{ burger.nom }} : {{ burger.prix }}€</li>
+        <div class="menu-item">
+          <span class="menu-item-name">{{ burger.nom }}</span>
+        </div>
         {% endfor %}
-    </ul>
+    </div>
 
   </body>
 </html>

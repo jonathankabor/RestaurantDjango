@@ -27,3 +27,16 @@ h1{
     margin-top: 45px;
     margin-bottom: 50px;
 }
+
+.menu-list {
+    margin-left: 30px;
+}
+
+.menu-item {
+    margin: 30px 0;
+}
+
+.menu-item-name {
+    font-weight: bold;
+    font-size: 20px;
+}
