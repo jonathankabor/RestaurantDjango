@@ -10,5 +10,14 @@ body {
     font-family: 'Arial';
 }
 
+a {
+    display: block;
+    text-align: center;
+    color: gold;
+    font-weight: bold;
+    margin-right: 5%;
+    margin-top: -390px;
+    font-size: 34px;
+}
 
 
