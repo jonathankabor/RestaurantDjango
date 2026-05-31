@@ -16,7 +16,9 @@
   <div class="menu-list">
         {% for burger in burgers %}
         <div class="menu-item">
-          <span class="menu-item-name">{{ burger.nom }}</span>
+          <a href="">
+            <span class="menu-item-name">{{ burger.nom }}</span>
+          </a>
           <span class="menu-item-price">{{ burger.prix | floatformat:2 }}€</span>
           <span class="menu-item-ingredients">{{ burger.ingredients }}</span>
           {% if burger.vegetarien %}

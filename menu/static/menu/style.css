@@ -41,6 +41,7 @@ h1{
     font-size: 20px;
     width: 300px;
     display: inline-block;
+    color: white;
 }
 
 .menu-item-price {
