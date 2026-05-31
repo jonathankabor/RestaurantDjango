@@ -73,3 +73,21 @@ h1{
     border-radius: 8px;
     font-weight: bold;
 }
+
+.footer {
+    background: #0e0e0e;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #d4a017;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-content strong {
+    color: #d4a017;
+}
