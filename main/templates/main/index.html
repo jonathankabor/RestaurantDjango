@@ -2,14 +2,12 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burgers With Passion</title>
     <link rel="stylesheet" href="{% static 'main/style1.css' %}?v=2.0">
+    <a href="{%url 'menu:menu_index'%}">Menu Burger House</a>
   </head>
   <body>
-    <div class="container">
-      <img src="{% static 'main/images/img1.png' %}" alt="Image Accueil">
-      <a href="{%url 'menu:menu_index'%}">Menu Burger House</a>
-    </div>
 
   </body>
 </html>

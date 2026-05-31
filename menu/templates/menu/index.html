@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="{% static 'menu/style.css' %}?v=1.0">
   </head>
   <body>
-    <img src="{% static 'menu/images/logo.png' %}" alt="Logo du restaurant" class="Logo">
+    <a href="{%url 'main:main_index'%}"><img src="{% static 'menu/images/logo.png' %}" alt="Logo du restaurant" class="Logo"></a>
+    
 
   <div class="menu-title">
     <h1>Les Burgers</h1>
